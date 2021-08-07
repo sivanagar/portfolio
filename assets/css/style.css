@@ -1,3 +1,9 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
 header {
     padding: 1em;
     align-items: center;
@@ -29,7 +35,7 @@ header nav ul{
     width: 50px;
     height: 50px;
     border-radius: 50%;
-    padding: 0 10px;
+    margin-right: 10px;
 
 }
 
@@ -58,3 +64,68 @@ header nav ul{
     margin: 10px auto;  
     color: salmon;
 }
+
+#work {
+    margin: auto;
+    width: 70%;
+    display: flex;
+    flex-direction: column;
+}
+
+#work h2 {
+    margin: 30px auto;
+    font-size: 1.5em;
+}
+.work-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.work-item {
+    display: flex;
+    flex-direction: column;
+    border-bottom: 15px solid #1f2229;
+    border-right: 15px solid #1f2229;
+    
+    border-radius: 10px;
+    width: 30%;
+    margin-bottom: 10px;
+    background-color: #1f2229
+}
+
+.work-item:hover {
+    border: 15px solid #1f2229;
+    border-radius: 10px;
+    
+}
+
+.work-item img {
+    border-radius: 10px;
+    background: #1f2229;
+}
+
+.work-item-content {
+    color:azure;
+    display: flex;
+    align-items: flex-end;
+}
+.work-item h3{
+    margin: 0 10px;
+    font-size: 1em;
+
+}
+
+.work-item h4{
+    color: azure;
+    font-size: 0.5em;
+}
+.work-item:first-child {
+    flex-basis: 100%;
+    font-size: 150%;
+}
+#Run-Buddy img {
+    width: 100%;
+}
+
