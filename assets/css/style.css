@@ -1,17 +1,9 @@
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-}
-
 header {
     padding: 1em;
     align-items: center;
     display: flex;
     justify-content: space-between;
 }
-
-
 
 header nav ul{
     list-style: none;
@@ -26,6 +18,7 @@ header nav ul{
     text-decoration: none;
     padding: 0 10px;
 }
+
 .site-title {
     display: flex;
     align-items: center;
@@ -39,44 +32,36 @@ header nav ul{
 
 }
 
-#about-me {
+.hero {
     background-image: url("../images/background.jpg");
     background-size: cover;
     background-position: center;
+    margin: 0.5rem;
+}
+
+.content-section {
     display: flex;
-    justify-content: space-evenly;
-}
-
-#about-me  img {
-    width: 20%;
-}
-
-#about-me h2 {
-    font-size: 3em;
-    line-height: 1.5em;
-    letter-spacing: 4px;
-    margin: 10px auto;  
-}
-
-#about-me h3 {
-    font-size: 1.5em;
-    line-height: 1.5em;
-    margin: 10px auto;  
-    color: salmon;
-}
-
-#work {
     margin: 20px auto;
-    width: 70%;
-    display: flex;
-    flex-direction: column;
-
 }
 
-#work h2 {
-    margin: 20px auto;
-    font-size: 1.5em;
+.sectionTitle {
+    border-right: 2px solid black;
+    flex-basis: 25%;
+    
 }
+
+.content-left {
+    flex-basis: 75%;
+    margin: 0.5rem;
+}
+
+.sectionTitle h2 {
+    font-size: 2rem;
+    text-align: right;
+    padding: 0.5rem 0.5rem;
+}
+
+
 .work-list {
     display: flex;
     flex-wrap: wrap;
@@ -89,7 +74,6 @@ header nav ul{
     flex-direction: column;
     border-bottom: 15px solid #1f2229;
     border-right: 15px solid #1f2229;
-    
     border-radius: 10px;
     width: 30%;
     margin-bottom: 10px;
@@ -130,25 +114,15 @@ header nav ul{
     width: 100%;
 }
 
-#contact {
-    background-color: grey;
-    padding: 20px;
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    align-items: center;
-}
-#contact h2{
-    font-size: 1em;
-}
+
+
 #contact ul {
     display: flex;
-    justify-content: center;
     flex-direction: row;
     list-style: none;
 }
 
 .social-icon {
-    width: 20px;
+    width: 40px;
     margin: 10px;
 }
