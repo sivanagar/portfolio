@@ -4,6 +4,10 @@
 HTML
 CSS
 
+## Description
+Sivan's Portfolio: Conatins contact information, and past work. 
+Built as part of course assignment. 
+
 ## Website
 https://sivanagar.github.io/portfolio/
 
