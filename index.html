@@ -3,17 +3,19 @@
 
 <head>
     <meta charset="UTF-8" />
-    <link rel="stylesheet" href="./assets/css/style.css" />
-    <title>Sivan Kaplan</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="icon" type="image/png" href="./assets/images/favicon.png" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.3.1/css/bootstrap.min.css">
+    <link rel="stylesheet" href="./assets/css/style.css" />
+    <title>Sivan Kaplan</title>
+    
 </head>
 
 <body>
     <header>
-        <div class="site-title">
+        <div class="navbar site-title">
             <img src="assets/images/myimage.png" alt="Sivan Kaplan" />
-            <h1>Sivan Kaplan</h1>
+            <h1 class="navbar-brand">Sivan Kaplan</h1>
         </div>
         <nav>
             <ul>
@@ -50,34 +52,40 @@
             <h2>My Work</h2>
         </div>
         <div class="work-list content-left">
-            <div class="work-item" id="Run-Buddy">
+            <div class="work-item card" id="feature">
+                <a href="https://sivanagar.github.io/NationalParkSearch/">
+                    <img class="Work-item-img card-img-top" src="assets/images/NationalParkSearch.png" alt="National Park Search Website screenshot" />
+                </a>
+                <div class="work-item-content card-body">
+                    <h3 class="card-title">National Park Search</h3>
+                    <h4 class="card-text">Javascript/jQuery</h4>
+                </div>
+            </div>
+            <div class="work-item card">
+                <a href="https://sivanagar.github.io/WeatherDashboard/">
+                <img class="Work-item-img card-img-top" src="assets/images/Weather-Dashboard.png" alt="Weather Dashboard screenshot image" />
+                </a>
+                <div class="work-item-content">
+                    <h3>Weather Dashboard</h3>
+                    <h4>jQuery/ Server side API / bootstrap</h4>
+                </div>
+            </div>
+            <div class="work-item card">
+                <a href="https://sivanagar.github.io/CodeQuiz/">
+                <img class="Work-item-img card-img-top" src="assets/images/code-Quiz.png" alt="Code Quiz screenshot image" />
+                </a>    
+                <div class="work-item-content">
+                    <h3>Code Quiz</h3>
+                    <h4>JavaScript</h4>
+                </div>
+            </div>
+            <div class="work-item card">
                 <a href="https://sivanagar.github.io/run-buddy/">
-                    <img class="Work-item-img" src="assets/images/Run Buddy.png" alt="Run Buddy Website screenshot" />
+                    <img class="Work-item-img card-img-top" src="assets/images/Run Buddy.png" alt="Run Buddy Website screenshot" />
                 </a>
                 <div class="work-item-content">
                     <h3>Run Buddy</h3>
                     <h4>HTML/CSS</h4>
-                </div>
-            </div>
-            <div class="work-item placeholder">
-                <img class="Work-item-img" src="https://picsum.photos/200?grayscale" alt="Random placeholder image" />
-                <div class="work-item-content">
-                    <h3>Future Work Name</h3>
-                    <h4>Future Work type</h4>
-                </div>
-            </div>
-            <div class="work-item placeholder">
-                <img class="Work-item-img" src="https://picsum.photos/200?grayscale" alt="Random placeholder image" />
-                <div class="work-item-content">
-                    <h3>Future Work Name</h3>
-                    <h4>Future Work type</h4>
-                </div>
-            </div>
-            <div class="work-item placeholder">
-                <img class="Work-item-img" src="https://picsum.photos/200?grayscale" alt="Random placeholder image" />
-                <div class="work-item-content">
-                    <h3>Future Work Name</h3>
-                    <h4>Future Work type</h4>
                 </div>
             </div>
         </div>
